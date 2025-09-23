@@ -120,13 +120,17 @@
 
 // export default App;
 
-// **************************FORM HANDLING IN REACT:
+// **************************FORM HANDLING and Two way binding IN REACT:
 
 // import React from 'react'
-
+// import { useState } from 'react'
 // const App = () => {
+//   const [username, setusername] = useState('')
+
 //   const submithandler  = (e) => {
 //       e.preventDefault();
+//       console.log(username)
+//       setusername('')
 //     }
 
 //     return(
@@ -134,13 +138,19 @@
 //       <form onSubmit={(e)=>{
 //         submithandler(e)
 //       }}>
-//         <input className='px-5 py-3 bg-green-500 border rounded text-white font-bold m-5' type="text"            placeholder='Enter your name'/>
+//         <input className='px-5 py-3 bg-green-500 border rounded text-white font-bold m-5' 
+//         value={username}
+//         onChange={(e)=>{
+//           setusername(e.target.value)
+//         }}  
+//         type="text"  placeholder='Enter your name'/>
 //         <button className='px-5 py-3 bg-blue-500 border rounded text-white font-bold '>Submit</button>
 //       </form>
 //     </div>
 //   )
 // }
 
-// export default App
+// export default App;
 
-//**********************************TWO WAY BINDING IN REACT:
+
+
