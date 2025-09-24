@@ -138,11 +138,11 @@
 //       <form onSubmit={(e)=>{
 //         submithandler(e)
 //       }}>
-//         <input className='px-5 py-3 bg-green-500 border rounded text-white font-bold m-5' 
+//         <input className='px-5 py-3 bg-green-500 border rounded text-white font-bold m-5'
 //         value={username}
 //         onChange={(e)=>{
 //           setusername(e.target.value)
-//         }}  
+//         }}
 //         type="text"  placeholder='Enter your name'/>
 //         <button className='px-5 py-3 bg-blue-500 border rounded text-white font-bold '>Submit</button>
 //       </form>
@@ -166,5 +166,32 @@
 // }
 
 // export default App
+
+// *******************************PROPS IN REACT
+// import React from 'react'
+// import Card from './components/Card'
+// const App = () => {
+//   return (
+//     <div>
+//       <Card user = "Umair"/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// *******************now if we create a div and pass some data to that div with multiple info
+// import React from "react";
+// import Card from "./components/Card";
+
+// const App = () => {
+//   return (
+//     <div className="bg-black text-white inline-block text-center p-20 m-10">
+//       <Card name = "m.umair" city = "Peshawar" age = "21" />
+//     </div>
+//   );
+// };
+
+// export default App;
 
 
