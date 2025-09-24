@@ -194,4 +194,57 @@
 
 // export default App;
 
+// *****************************PROPS FOR JSON DATA:
+// import React from 'react'
+// import Card from './components/Card'
+// let user =
+// [
+//   {
+//     "name": "Ali Khan",
+//     "profession": "Software Engineer",
+//     "age": 28,
+//     "city": "Lahore"
+//   },
+//   {
+//     "name": "Sara Ahmed",
+//     "profession": "Doctor",
+//     "age": 32,
+//     "city": "Karachi"
+//   },
+//   {
+//     "name": "Bilal Hussain",
+//     "profession": "Teacher",
+//     "age": 40,
+//     "city": "Islamabad"
+//   },
+//   {
+//     "name": "Ayesha Malik",
+//     "profession": "Graphic Designer",
+//     "age": 25,
+//     "city": "Rawalpindi"
+//   },
+//   {
+//     "name": "Usman Raza",
+//     "profession": "Businessman",
+//     "age": 35,
+//     "city": "Faisalabad"
+//   }
+// ]
 
+
+// const App = () => {
+//   return (
+//     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4'>
+//       {user.map((elem, idx)=>{
+//         return <Card
+//       key={idx}
+//       username={elem.name}
+//       profession={elem.profession}
+//       age={elem.age}
+//       city={elem.city}/>
+//       })}
+//     </div>
+//   )
+// }
+
+// export default App

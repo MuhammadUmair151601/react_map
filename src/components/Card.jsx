@@ -25,3 +25,19 @@
 // }
 
 // export default Card
+
+// import React from 'react'
+
+// const Card = (props) => {
+//   return (
+//       <div className='bg-gray-500 h-50 w-50 m-10 text-center font-bold rounded'>
+//       <h1>User name is {props.username}:</h1>
+//       <h1>City is: {props.city}</h1>
+//       <h1>Age is: {props.age}</h1>
+//       <button className='bg-pink-400 rounded p-2 mt-10 cursor-pointer'>Add friend</button>
+//       </div>
+//   )
+// }
+
+// export default Card
+
