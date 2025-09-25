@@ -248,3 +248,48 @@
 // }
 
 // export default App
+
+// *******************************API (AXIOS) IN REACT:
+
+// import React from 'react'
+// import axios from 'axios'
+// const App = () => {
+//   const data = async () => {
+//     const response = await axios.get("https://picsum.photos/v2/list?page=2&limit=100")
+//     console.log(response.data)
+//   }
+//   return (
+//     <div>
+//        <button onClick={data} className='p-5 bg-emerald-500 m-10 rounded font-bold text-white active:scale-90 cursor-pointer'>Get data</button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React, { useState } from 'react'
+// import axios from 'axios'
+// const App = () => {
+//   const [data, setdata] = useState([])
+//   const getdata = async () => {
+//     const response = await axios.get("https://picsum.photos/v2/list?page=2&limit=100")
+//     setdata(response.data)
+//     console.log(data)
+//   }
+//   return (
+//     <div>
+//        <button onClick={getdata} className='p-5 bg-emerald-500 m-10 rounded font-bold text-white active:scale-90 cursor-pointer'>Get data</button>
+//        <div className='p-10 bg-gray-300 text-white'>
+//           {data.map((elem,idx)=>{
+//             return <div key={idx} className='bg-black mt-2 '>
+//               <img src={elem.download_url} alt="" className='h-40 w-40'/>
+//               <h1>{elem.author }</h1>
+//             </div>
+//           })}
+//        </div>
+//     </div>
+    
+//   )
+// }
+
+// export default App
