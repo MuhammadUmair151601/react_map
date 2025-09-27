@@ -317,3 +317,20 @@
 // }
 
 // export default App
+// import React, { useContext } from 'react'
+// import About from './pages/About'
+// import { data } from 'react-router-dom'
+// import { Datacontext } from './context_API/Usercontext'
+
+// const App = () => {
+//   const data = useContext(Datacontext)
+//   console.log(data)
+//   return (
+//     <div>This is APP.jsx
+//       <About></About>
+//     </div>
+    
+//   )
+// }
+
+// export default App
